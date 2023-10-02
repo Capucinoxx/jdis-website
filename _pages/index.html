@@ -105,14 +105,30 @@ layout: page
 
 <h3 id="reussites" class="section-title">Nos dernières réussites</h3>
 <div class="events">
-  {% for achievement in site.data.achievements %}
-    <div style="border:2px solid black; margin-right:1em; margin-bottom:1em; padding: 1em; padding-right: 2em; display: inline-block">
-      <div>
-        <b>{{ achievement.event }}</b><br/>
-        {{ achievement.achievement }}
-      </div>
+  
+  {% assign year = "now" | date: "%Y" | plus: 0 %}
+
+  <div class="acheivements-grid" style="display: flex;">
+    <div class='col'>
+      <div></div>
+      {% for i in (0..4) %}
+        {% assign current_year = year | minus: i | append: "" %}
+        <div>{{ current_year }}</div>
+      {% endfor %}
     </div>
-  {% endfor %}
+
+    {% for competition in site.data.achievements %}
+      <div class='col'>
+        <div>{{ competition.name }}</div>
+        {% for i in (0..4) %}
+          {% assign current_year = year | minus: i | append: "" %}
+          <div>{{ competition.achievement[current_year] }}</div>
+        {% endfor %}
+      </div>
+    {% endfor %}
+  </div>
+
+
 </div>
 
 <h3 id="equipe" class="section-title">L'équipe</h3>

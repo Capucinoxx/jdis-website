@@ -1,58 +1,32 @@
 [
   {
-    "event": "NorthSec 2021",
-    "achievement": "21e position"
+    "name": "CS Games",
+    "achievement": {
+      "2018": "7e et 12e positions",
+      "2019": "4e et 11e positions",
+      "2023": "4e et 5e positions"
+    }
   },
   {
-    "event": "Coveo Blitz 2021",
-    "achievement": "1ère position"
+    "name": "Coveo Blitz",
+    "achievement": {
+      "2023": "Quart de final",
+      "2022": "Quart de final",
+      "2021": "1ère position",
+      "2020": "1ère et 2e positions",
+      "2019": "2e position",
+      "2018": "1ère position"
+    }
   },
   {
-    "event": "Coveo Blitz 2020",
-    "achievement": "1ère et 2e positions"
-  },
-  {
-    "event": "NorthSec 2019",
-    "achievement": "21e position"
-  },
-  {
-    "event": "CS Games 2019",
-    "achievement": "4e et 11e positions"
-  },
-  {
-    "event": "Coveo Blitz 2019",
-    "achievement": "2e position"
-  },
-  {
-    "event": "CSAW CTF Finals",
-    "achievement": "5e position (avec Université Laval)"
-  },
-  {
-    "event": "CS Games 2018",
-    "achievement": "7e et 12e positions"
-  },
-  {
-    "event": "Coveo Blitz 2018",
-    "achievement": "1ère position"
-  },
-  {
-    "event": "CS Games 2017",
-    "achievement": "1ère et 12e positions"
-  },
-  {
-    "event": "NorthSec 2017",
-    "achievement": "4e et 10e positions"
-  },
-  {
-    "event": "CTF iHack 2017",
-    "achievement": "2e et 4e positions"
-  },
-  {
-    "event": "CTF Hackfest 2016",
-    "achievement": "1ère et 3e positions"
-  },
-  {
-    "event": "OWASP @ Hackfest 2016",
-    "achievement": "2e et 3e positions"
+    "name": "NorthSec",
+    "achievement": {
+      "2023": "35e, 37e et 42e  position",
+      "2022": "22e position",
+      "2021": "21e position",
+      "2019": "21e position",
+      "2017": "4e et 10e positions"
+    }
   }
 ]
+
